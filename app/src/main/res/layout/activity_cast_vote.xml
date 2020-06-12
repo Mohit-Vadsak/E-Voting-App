@@ -10,7 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginEnd="17dp"
@@ -33,11 +33,11 @@
                 android:layout_height="80dp"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:src="@drawable/bjp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bjp" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -45,10 +45,10 @@
                 android:layout_height="80dp"
                 android:layout_row="1"
                 android:layout_column="0"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/ss" />
 
             <ImageView
@@ -57,10 +57,10 @@
                 android:layout_height="80dp"
                 android:layout_row="2"
                 android:layout_column="0"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/congress" />
 
             <ImageView
@@ -69,10 +69,10 @@
                 android:layout_height="80dp"
                 android:layout_row="3"
                 android:layout_column="0"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/mns" />
 
             <ImageView
@@ -81,10 +81,10 @@
                 android:layout_height="80dp"
                 android:layout_row="4"
                 android:layout_column="0"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/ncp" />
 
             <ImageView
@@ -93,10 +93,10 @@
                 android:layout_height="80dp"
                 android:layout_row="5"
                 android:layout_column="0"
-                android:layout_marginBottom="30dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:src="@drawable/nota" />
 
             <TextView
@@ -105,22 +105,22 @@
                 android:layout_row="0"
                 android:layout_column="1"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="BJP"
                 android:textColor="#000000"
                 android:visibility="visible" />
 
             <RadioButton
-                android:layout_column="2"
                 android:layout_row="0"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="center"/>
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="150dp"
@@ -128,22 +128,22 @@
                 android:layout_row="1"
                 android:layout_column="1"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="Shiv Sena"
                 android:textColor="#000000"
                 android:visibility="visible" />
 
             <RadioButton
-                android:layout_column="2"
                 android:layout_row="1"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="center"/>
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="150dp"
@@ -151,22 +151,22 @@
                 android:layout_row="2"
                 android:layout_column="1"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="Congress"
                 android:textColor="#000000"
                 android:visibility="visible" />
 
             <RadioButton
-                android:layout_column="2"
                 android:layout_row="2"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="center"/>
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="150dp"
@@ -174,22 +174,22 @@
                 android:layout_row="3"
                 android:layout_column="1"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="MNS"
                 android:textColor="#000000"
                 android:visibility="visible" />
 
             <RadioButton
-                android:layout_column="2"
                 android:layout_row="3"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="center"/>
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="150dp"
@@ -197,22 +197,22 @@
                 android:layout_row="4"
                 android:layout_column="1"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="NCP"
                 android:textColor="#000000"
                 android:visibility="visible" />
 
             <RadioButton
-                android:layout_column="2"
                 android:layout_row="4"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="center"/>
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="150dp"
@@ -220,25 +220,42 @@
                 android:layout_row="5"
                 android:layout_column="1"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="NOTA"
                 android:textColor="#000000"
                 android:visibility="visible" />
 
             <RadioButton
-                android:layout_column="2"
                 android:layout_row="5"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="center"/>
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="30dp"
+                android:layout_marginBottom="25dp"
+                android:textSize="17sp"
+                android:paddingLeft="30dp"
+                android:text="Submit" />
 
         </GridLayout>
 
+
     </ScrollView>
+
+
 
 </LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingTop="16dp"
+    tools:context=".Notice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/main_logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="-50dp"
+            android:text="E-Voting"
+            android:textColor="@android:color/black"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="30dp"
+            android:letterSpacing="0.1"
+            android:text="@string/notices"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="3dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/commission_s_notice_to_aam_aadmi_party"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:padding="3dp"
+                    android:text="@string/commission_s_order_in_the_dispute_case_in_aiadmk_party_regarding_extension_of_time_to_submit_affidavits_etc"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/use_of_animals_in_election_process_regarding"
+                    android:textColor="#000"
+                    android:padding="3dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="3dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/submission_of_form_a_and_form_b_by_political_parties_correction_in_the_instruction_in_the_handbook_for_ros"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/letter_to_bjp_regarding_the_statment_of_shri_joy_banerjee"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/commission_s_letter_to_smt_vk_sasikala_on_complaints_filed_by_dr_v_maitreyan_and_11_ors_opposing_her_nomination_as_general_secretary"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/order_in_pursuance_of_hon_ble_delhi_high_court_s_order_dated_19_10_2015_in_the_matter_of_w_p_c_no_9938_2015_rizwan_haider_vs_all_india_majlis_e_ittehadul_muslimeen_anr_regarding"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="3dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/reply_to_representations_filed_by_sh_k_c_palanisamy_in_respect_of_aiadmk_a_recognized_party_in_the_state_of_tamil_nadu"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

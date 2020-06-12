@@ -6,19 +6,20 @@
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="22dp"
-    android:paddingRight="22dp"
+
     android:paddingTop="16dp"
     tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginEnd="17dp"
         android:layout_marginRight="17dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -159,23 +160,19 @@
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
-
-            <Button
-                android:id="@+id/test"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="55dp"
-                android:background="@android:color/white"
-                android:clickable="true"
-                android:text="Direct Dashboard"
-                android:textAllCaps="false"
-                android:textColor="@android:color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
         </LinearLayout>
-
-
     </ScrollView>
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bg_img" />
 </androidx.constraintlayout.widget.ConstraintLayout>

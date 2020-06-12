@@ -6,31 +6,35 @@
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="22dp"
-    android:paddingRight="22dp"
-    android:paddingTop="16dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="5dp"
     tools:context=".UpdateInfo">
     <!-- Header aligned to top -->
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="408dp"
+        android:layout_height="684dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginStart="18dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="17dp"
             android:layout_marginRight="17dp"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="75dp"
@@ -38,7 +42,8 @@
                 android:layout_marginLeft="65dp"
                 android:layout_marginTop="40dp"
                 android:background="@android:color/transparent"
-                app:srcCompat="@drawable/main_logo"/>
+                app:srcCompat="@drawable/main_logo" />
+
 
 
             <TextView
@@ -50,7 +55,7 @@
                 android:text="E-Voting"
                 android:textColor="@android:color/black"
                 android:textSize="50px"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <!-- Content below header and above footer -->
 
@@ -67,46 +72,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="100dp"
-                app:boxBackgroundColor="#fff"
+                android:hint="Party Name"
                 android:textColorHint="#000"
-                android:hint="Party Name">
+                app:boxBackgroundColor="#fff">
 
                 <AutoCompleteTextView
                     android:id="@+id/spinner1"
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
                     android:inputType="none"
                     android:maxLines="1"
-                    android:focusable="false"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:textColor="#000" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
-<!--            <Spinner-->
-<!--                android:id="@+id/spinner2"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="40dp"-->
-<!--                android:background="@android:drawable/btn_dropdown"-->
-<!--                android:spinnerMode="dropdown" />-->
+            <!--            <Spinner-->
+            <!--                android:id="@+id/spinner2"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="40dp"-->
+            <!--                android:background="@android:drawable/btn_dropdown"-->
+            <!--                android:spinnerMode="dropdown" />-->
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                app:boxBackgroundColor="#fff"
+                android:hint="Party Candidate"
                 android:textColorHint="#000"
-                android:hint="Party Candidate">
+                app:boxBackgroundColor="#fff">
 
                 <AutoCompleteTextView
                     android:id="@+id/spinner2"
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
                     android:inputType="none"
                     android:maxLines="1"
-                    android:focusable="false"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:textColor="#000" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -120,20 +125,20 @@
                 android:ems="10"
                 android:focusable="true"
                 android:focusableInTouchMode="true"
-                android:hint="Message"
-                android:maxLines="5"
                 android:gravity="top|left"
+                android:hint="Message"
                 android:inputType="textMultiLine"
+                android:lines="3"
+                android:maxLines="5"
                 android:overScrollMode="always"
+                android:padding="5dp"
                 android:scrollbarStyle="insideInset"
                 android:scrollbars="vertical"
-                android:lines="5"
-                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:scrollHorizontally="false"
-                android:padding="5dp"
-                android:textColorHint="#000000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"/>
+                android:textColorHint="#000000"
+                android:textSize="18sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -154,12 +159,21 @@
                 android:text="Submit"
                 android:textAllCaps="false"
                 android:textSize="15sp"
-                android:textStyle="normal"
-                />
+                android:textStyle="normal" />
 
         </LinearLayout>
-
-
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bg_img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

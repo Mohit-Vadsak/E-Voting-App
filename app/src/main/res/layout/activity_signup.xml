@@ -6,30 +6,35 @@
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="22dp"
-    android:paddingRight="22dp"
+    android:paddingLeft="0dp"
     android:paddingTop="16dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
     tools:context=".Signup">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="22dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginStart="18dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="17dp"
             android:layout_marginRight="17dp"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="75dp"
@@ -37,7 +42,7 @@
                 android:layout_marginLeft="65dp"
                 android:layout_marginTop="40dp"
                 android:background="@android:color/transparent"
-                app:srcCompat="@drawable/main_logo"/>
+                app:srcCompat="@drawable/main_logo" />
 
 
             <TextView
@@ -49,7 +54,7 @@
                 android:text="E-Voting"
                 android:textColor="@android:color/black"
                 android:textSize="50px"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,6 +63,7 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="75dp"
                 android:letterSpacing="0.1"
+                android:layout_gravity="center"
                 android:text="Signup to Vote"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
@@ -77,9 +83,9 @@
                 android:inputType="text"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"/>
+                android:textColorHint="#000000"
+                android:textSize="15sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -101,9 +107,9 @@
                 android:inputType="number"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"/>
+                android:textColorHint="#000000"
+                android:textSize="15sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -124,9 +130,9 @@
                 android:inputType="textPhonetic"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"/>
+                android:textColorHint="#000000"
+                android:textSize="15sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -147,9 +153,9 @@
                 android:inputType="number"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"/>
+                android:textColorHint="#000000"
+                android:textSize="15sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -162,7 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="150dp"
+                android:layout_marginTop="100dp"
                 android:background="@drawable/btn_rounded"
                 android:clickable="true"
                 android:paddingLeft="50dp"
@@ -170,12 +176,20 @@
                 android:text="SIGNUP"
                 android:textAllCaps="false"
                 android:textSize="15sp"
-                android:textStyle="normal"
-                />
-
+                android:textStyle="normal" />
         </LinearLayout>
-
-
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bg_img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

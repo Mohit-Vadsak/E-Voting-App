@@ -27,6 +27,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fade
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -1443,6 +1444,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable download
+drawable emblem
 drawable film
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1463,6 +1465,7 @@ drawable ic_mtrl_chip_close_circle
 drawable illustration
 drawable image01
 drawable link
+drawable logo
 drawable main_logo
 drawable mns
 drawable mtrl_dialog_background
@@ -1629,6 +1632,7 @@ id direct
 id disableHome
 id dropdown_menu
 id edit_query
+id emblem
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1674,6 +1678,7 @@ id line1
 id line3
 id listMode
 id list_item
+id logo
 id masked
 id message
 id middle
@@ -1796,6 +1801,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1895,6 +1901,7 @@ layout activity_grievance
 layout activity_main
 layout activity_notice
 layout activity_signup
+layout activity_splash
 layout activity_update_info
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2030,6 +2037,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string gov_name
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string mtrl_badge_numberless_content_description

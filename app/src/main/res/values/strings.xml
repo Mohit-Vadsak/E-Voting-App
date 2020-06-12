@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">E Voting</string>
     <string name="title_activity_dashboard">Dashboard</string>
+    <string name="gov_name">Government of India</string>
+    <string name="commission_s_notice_to_aam_aadmi_party">Commission\'s Notice to Aam Aadmi Party</string>
+    <string name="reply_to_representations_filed_by_sh_k_c_palanisamy_in_respect_of_aiadmk_a_recognized_party_in_the_state_of_tamil_nadu">Reply to Representations filed by Sh. K.C.Palanisamy in respect of AIADMK, a recognized party in the State of Tamil Nadu</string>
+    <string name="order_in_pursuance_of_hon_ble_delhi_high_court_s_order_dated_19_10_2015_in_the_matter_of_w_p_c_no_9938_2015_rizwan_haider_vs_all_india_majlis_e_ittehadul_muslimeen_anr_regarding"><![CDATA[Order in pursuance of Hon’ble Delhi High Court’s Order dated 19.10.2015 in the matter of W.P.(C) No.9938/2015 – Rizwan Haider Vs All India Majlis-E-Ittehadul Muslimeen & Anr - regarding]]></string>
+    <string name="commission_s_order_in_the_dispute_case_in_aiadmk_party_regarding_extension_of_time_to_submit_affidavits_etc">Commission’s order in the dispute case in AIADMK Party – regarding extension of time to submit affidavits etc.</string>
+    <string name="submission_of_form_a_and_form_b_by_political_parties_correction_in_the_instruction_in_the_handbook_for_ros">Submission of Form-A and Form-B by political parties- correction in the instruction in the Handbook for ROs.</string>
+    <string name="letter_to_bjp_regarding_the_statment_of_shri_joy_banerjee">Letter to BJP regarding the statment of Shri Joy Banerjee</string>
+    <string name="notices">Notices</string>
+    <string name="use_of_animals_in_election_process_regarding">Use of animals in election process- regarding.</string>
+    <string name="commission_s_letter_to_smt_vk_sasikala_on_complaints_filed_by_dr_v_maitreyan_and_11_ors_opposing_her_nomination_as_general_secretary">Commission’s letter to Smt. VK Sasikala on complaints filed by Dr. V.Maitreyan and 11 Ors opposing her nomination as general secretary.</string>
 </resources>

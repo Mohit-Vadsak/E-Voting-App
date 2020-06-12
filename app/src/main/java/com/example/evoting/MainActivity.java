@@ -32,17 +32,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        Button btt = (Button)findViewById(R.id.test);
-        btt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,Dashboard.class);
-                startActivity(i);
-            }
-        });
-
-
         b= (Button)findViewById(R.id.btnRegNew);
         login=findViewById(R.id.btnLogin);
         aadhar=findViewById(R.id.LogAadhar);

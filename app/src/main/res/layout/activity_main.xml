@@ -11,15 +11,16 @@
     tools:context=".MainActivity">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3"
+        android:layout_width="380dp"
+        android:layout_height="709dp"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginEnd="17dp"
         android:layout_marginRight="17dp"
-        android:paddingBottom="16dp"
         android:paddingLeft="22dp"
         android:paddingRight="22dp"
+        android:paddingBottom="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -75,8 +76,8 @@
                 android:inputType="number"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
+                android:textColorHint="#000000"
                 android:textSize="15sp" />
 
             <View
@@ -98,9 +99,9 @@
                 android:inputType="textPhonetic"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"/>
+                android:textColorHint="#000000"
+                android:textSize="15sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -121,8 +122,8 @@
                 android:inputType="number"
                 android:maxLines="1"
                 android:padding="5dp"
-                android:textColorHint="#000000"
                 android:textColor="@android:color/black"
+                android:textColorHint="#000000"
                 android:textSize="15sp" />
 
             <View
@@ -160,19 +161,9 @@
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
+
         </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="match_parent"
-        android:layout_height="105dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/bg_img" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

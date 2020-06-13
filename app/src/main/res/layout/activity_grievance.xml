@@ -14,6 +14,7 @@
     <!-- Header aligned to top -->
 
     <ScrollView
+        android:id="@+id/scrollView4"
         android:layout_width="408dp"
         android:layout_height="684dp"
         android:layout_marginLeft="22dp"
@@ -43,7 +44,6 @@
                 android:layout_marginTop="40dp"
                 android:background="@android:color/transparent"
                 app:srcCompat="@drawable/main_logo" />
-
 
 
             <TextView
@@ -163,17 +163,5 @@
 
         </LinearLayout>
     </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="match_parent"
-        android:layout_height="105dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/bg_img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

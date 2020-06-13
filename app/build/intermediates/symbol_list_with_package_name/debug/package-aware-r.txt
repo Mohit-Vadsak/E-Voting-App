@@ -1667,7 +1667,6 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageView9
 id info
 id invisible
 id italic
@@ -1901,6 +1900,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cast_vote
 layout activity_dashboard
+layout activity_fingerprint
 layout activity_grievance
 layout activity_main
 layout activity_notice

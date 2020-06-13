@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                                          if(vote.child("E-Voter").exists())
                                          {
                                              Toast.makeText(MainActivity.this, "You are Logged In", Toast.LENGTH_LONG).show();
-                                             Intent i = new Intent(MainActivity.this, Dashboard.class);
+                                             Intent i = new Intent(MainActivity.this, Fingerprint.class);
                                              startActivity(i);
                                              flag = 1;
                                              break;

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.2.0-alpha03] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e96fd293cf43df708cff35caa197515\material-1.2.0-alpha03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\c1ae45e1ca94b8a8f19e9ed62205a089\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f3a91369fc59be2b3647af61835a0ac8\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -55,25 +55,25 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mohit\.gradle\caches
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\dc63732bf3545a3619b5259ed712b618\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2caeb15121489f2757f4f6547c5de6c0\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\d4ac2e24d6c7cdbaf02f6800d868b694\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.2.0-alpha03] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e96fd293cf43df708cff35caa197515\material-1.2.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha03] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\2e96fd293cf43df708cff35caa197515\material-1.2.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit\.gradle\caches\transforms-2\files-2.1\f3a91369fc59be2b3647af61835a0ac8\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -130,48 +130,52 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mo
 		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.evoting.Fingerprint
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:12:9-58
+	android:name
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:12:19-46
 activity#com.example.evoting.Splash
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:12:19-41
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:13:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:17:27-74
 activity#com.example.evoting.Grievance
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:19:9-47
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:20:9-47
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:19:19-44
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:20:19-44
 activity#com.example.evoting.UpdateInfo
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:20:9-48
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:21:9-48
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:20:19-45
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:21:19-45
 activity#com.example.evoting.Notice
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:21:9-44
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:22:9-44
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:21:19-41
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:22:19-41
 activity#com.example.evoting.CastVote
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:22:9-46
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:23:9-46
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:22:19-43
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:23:19-43
 activity#com.example.evoting.Dashboard
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:23:9-47
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:24:9-47
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:23:19-44
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:24:19-44
 activity#com.example.evoting.Signup
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:24:9-44
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:25:9-44
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:24:19-41
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:25:19-41
 activity#com.example.evoting.MainActivity
-ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:25:9-49
+ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:26:9-50
 	android:name
-		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml:26:19-47
 uses-sdk
 INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\E-Voting-App\app\src\main\AndroidManifest.xml

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\Android\\E-Voting-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_illustration.png.flat",
         "source": "E:\\Android\\E-Voting-App\\app\\src\\main\\res\\drawable-mdpi\\illustration.png"
+    },
+    {
+        "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\E-Voting-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -34,6 +34,10 @@
     {
         "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_checked.png.flat",
         "source": "E:\\Android\\E-Voting-App\\app\\src\\main\\res\\drawable-xhdpi\\checked.png"
+    },
+    {
+        "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fingerprint.xml.flat",
+        "source": "E:\\Android\\E-Voting-App\\app\\src\\main\\res\\layout\\activity_fingerprint.xml"
     },
     {
         "merged": "E:\\Android\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",

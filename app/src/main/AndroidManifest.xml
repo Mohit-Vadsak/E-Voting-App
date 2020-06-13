@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Fingerprint"></activity>
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +23,7 @@
         <activity android:name=".CastVote" />
         <activity android:name=".Dashboard" />
         <activity android:name=".Signup" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

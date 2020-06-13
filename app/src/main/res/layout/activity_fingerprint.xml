@@ -7,7 +7,7 @@
     android:background="@android:color/background_light"
     android:orientation="vertical"
     android:paddingLeft="0dp"
-    android:paddingTop="16dp"
+    android:paddingTop="0dp"
     android:paddingRight="0dp"
     android:paddingBottom="0dp"
     tools:context=".Signup">
@@ -15,7 +15,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="382dp"
-        android:layout_height="567dp"
+        android:layout_height="match_parent"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="22dp"
@@ -66,23 +66,11 @@
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 android:textStyle="normal" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnReg"
-                style="@style/Widget.MaterialComponents.Button"
+            <ImageView
+                android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="80dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/btn_rounded"
-                android:clickable="true"
-                android:paddingLeft="50dp"
-                android:paddingRight="50dp"
-                android:text="CLICK FOR AUTHENTICATION"
-                android:textAllCaps="false"
-                android:textSize="15sp"
-                android:textStyle="normal" />
+                android:layout_height="500px"
+                android:src="@drawable/fingerprint_auth"/>
         </LinearLayout>
     </ScrollView>
 

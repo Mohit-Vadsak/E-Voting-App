@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/E Voting.iml" filepath="$PROJECT_DIR$/E Voting.iml" group="E Voting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/E_Voting.iml" filepath="$PROJECT_DIR$/.idea/modules/E_Voting.iml" group="E_Voting" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="E Voting/app" />
     </modules>
   </component>

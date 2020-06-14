@@ -2,18 +2,25 @@ package com.example.evoting;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class Grievance extends AppCompatActivity {
-
+    EditText mes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grievance);
-
+        Button reg;
+        reg = (Button)findViewById(R.id.btnReg);
+        mes = (EditText)findViewById(R.id.Address);
 //        Spinner dropdown1=findViewById(R.id.spinner1);
 //        String[] item1=new String[]{"1","2"};
 //        ArrayAdapter<String> adapter=new ArrayAdapter<>(this,android.R.layout.simple_spinner_dropdown_item,item1);
@@ -44,7 +51,21 @@ public class Grievance extends AppCompatActivity {
         AutoCompleteTextView editTextFilledExposedDropdown2 = (AutoCompleteTextView)
                 findViewById(R.id.spinner2);
         editTextFilledExposedDropdown2.setAdapter(adapter2);
-
-
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String msg = mes.getText().toString();
+                if(msg.isEmpty())
+                {
+                    Toast.makeText(getApplicationContext(),"Please enter the Message",Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Intent i = new Intent(Grievance.this,Dashboard.class);
+                    startActivity(i);
+                    Toast.makeText(getApplicationContext(),"Your Grievance has been recorded",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 }

@@ -93,7 +93,7 @@
 
 
             <EditText
-                android:id="@+id/RegAadhar"
+                android:id="@+id/pollbth"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="45dp"
@@ -103,7 +103,7 @@
                 android:focusable="true"
                 android:focusableInTouchMode="true"
                 android:hint="Polling Booth"
-                android:inputType="number"
+                android:inputType="text"
                 android:maxLines="1"
                 android:padding="5dp"
                 android:textColor="@android:color/black"

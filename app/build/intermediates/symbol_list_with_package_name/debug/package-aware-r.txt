@@ -1743,6 +1743,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id pollbth
 id progress_circular
 id progress_horizontal
 id radio

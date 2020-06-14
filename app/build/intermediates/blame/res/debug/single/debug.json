@@ -32,12 +32,12 @@
         "source": "D:\\Android_Applications\\E-Voting-App\\app\\src\\main\\res\\drawable-xxxhdpi\\film.png"
     },
     {
-        "merged": "D:\\Android_Applications\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_house.png.flat",
-        "source": "D:\\Android_Applications\\E-Voting-App\\app\\src\\main\\res\\drawable-mdpi\\house.png"
-    },
-    {
         "merged": "D:\\Android_Applications\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\Android_Applications\\E-Voting-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Applications\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_house.png.flat",
+        "source": "D:\\Android_Applications\\E-Voting-App\\app\\src\\main\\res\\drawable-mdpi\\house.png"
     },
     {
         "merged": "D:\\Android_Applications\\E-Voting-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_link.png.flat",
